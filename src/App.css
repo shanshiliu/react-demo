@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 3s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1em;
+}
+
+.App-intro {
+  font-size: large;
+  font-size: 12px;
+}
+#page {
+  margin-bottom: 50px;
+}
+.home {
+  font-size: 20px;
+  color: red;
+  text-align: center;
+}
+.title {
+  color:rgb(223,0,0);
+  /*font-size: 12px;*/
+  text-align: center;
+}
+.alive {
+  font-style: oblique;
+  font-weight: 700;
+  color: #333; 
+}
+.blue {
+  color: black;
+  background: #f89;
+  width: 300px;
+}
+.sure {
+  margin: 10px 0;
+  text-align: center;
+}
+.warn {
+  height: 30px;
+  background: #f78;
+  text-align: center;
+}
+.button {
+  outline: none;
+  background: rgba(0,0,0,.3);
+  border: none;
+}
+.ul {
+  margin-top: 40px;
+  display: block;
+  width: 200px;
+  float: left
+}
+.clearfix::before,.clearfix::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+.clearfix {
+  zoom: 1;
+}
+
+.box-left {
+  height: 50px;
+  width: 30%;
+  position: absolute;
+  left: 0;
+  background: #f59;
+}
+.box-right{
+  height: 50px;
+  width: 70%;
+  position: absolute;
+  right: 0;
+  background: #f14;
+}
+.box {
+  position: relative;
+  text-align: center;
+  height: 50px;
+}
+.searchbar {
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.weight7 {
+  font-weight: 700;
+}
+.menu {
+  width: 80%;
+  margin: 20px auto;
+  background: #f14;
+  text-align: center;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.nav {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+/* game css */
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
